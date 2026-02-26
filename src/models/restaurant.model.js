@@ -17,6 +17,14 @@ const restauarntSchema = new mongoose.Schema({
     type: {
       type: String,
       required: true
+    },
+    location: {
+      type: String,
+      required: true
+    },
+    hasDelivery: {
+      type: Boolean,
+      required: true 
     }
 });
 

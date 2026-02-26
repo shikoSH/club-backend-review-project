@@ -3,10 +3,11 @@ require('dotenv').config();
 
 //importing the Express application from app.js
 const app = require('./app');
-//defining the port on which the server will listen, using an environment variable or defaulting to 3000
-const PORT = process.env.PORT || 3000;
 //connecting to the MongoDB database using the connectDB function from src/config/db.js
 const connectDB = require('./src/config/db');
+//defining the port on which the server will listen, using an environment variable or defaulting to 3000
+const PORT = process.env.PORT || 3000;
+
 
 //starting the server and listening on the specified port and host, logging a message to the console when the server is running
 // Connect to MongoDB first

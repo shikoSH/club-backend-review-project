@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const restaurant_ratingsRoutes = require('./routes/restaurant_ratings.routes');
+const restaurant_ratingsRoutes = require('./src/routes/restaurant.route');
 const app = express();
 app.use(express.json());
 
